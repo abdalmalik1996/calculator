@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <title>Document</title>
+</head>
+<body>
+    <script src="project.js"></script>
+    <div class="container">
+<table>
+<tr rowspan="5" ></tr> <tr><th colspan="4" ><input id="scren" class="scren" type="text" value="" ></th></tr></tr>
+    <tr>
+        <td  class="color" onclick="getOperators('÷')">÷</td>
+        <td class="color" onclick="getOperators('×')">×</td>
+        <td  class="color"onclick="getOperators('-')">-</td>
+        <td class="color" onclick="getOperators('+')">+</td>
+    </tr>
+    <tr>
+        <td onclick="getNumbers(7)">7</td>
+        <td onclick="getNumbers(8)">8</td>
+        <td onclick="getNumbers(9)">9</td>
+        <td onclick="clearOne()" class="color" >«</td>
+    </tr>
+<tr>
+        <td onclick="getNumbers(4)">4</td>
+        <td onclick="getNumbers(5)">5</td>
+        <td onclick="getNumbers(6)">6</td>
+        <td class="color" onclick="Clear()">C</td>
+</tr>
+<tr>
+    <td onclick="getNumbers(1)">1</td>
+    <td onclick="getNumbers(2)">2</td>
+    <td onclick="getNumbers(3)">3</td>
+    <td class="color" onclick="calulait()" rowspan="2" class="equal">=</td>
+</tr>
+<tr>
+    <td onclick="getNumbers('.')">.</td>
+    <td onclick="getNumbers(0)" colspan="2" class="zero">0</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
